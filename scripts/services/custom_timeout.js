@@ -19,7 +19,7 @@
     along with cc-timeout-service.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-angular.module('cc.timeout.service').factory('customTimeout', ['$rootScope', function($rootScope) {
+angular.module('cc.timeout.service', []).factory('customTimeout', ['$rootScope', function($rootScope) {
     return function(fn, delay, invokeApply) {
         if(angular.isUndefined(delay)) {
             delay = 0;
