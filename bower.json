@@ -1,11 +1,11 @@
 {
-	"name": "timeout-service",
+	"name": "cc-timeout-service",
 	"description": "Custom timeout service.",
 	"authors": [
 		"ClearCode (http://clearcode.cc)"
 	],
 	"version": "1.0.0",
-	"main": "time.js",
+	"main": "script/services/custom_timeout.js",
 	"ignore": [
 		"**/.*",
 		"node_modules",
