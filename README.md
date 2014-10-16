@@ -6,7 +6,7 @@ This service provides custom timeout with invoking ``` $apply ```
 
 Installation
 --------------
-TODO
+``` bower install clearcodeangularjs/cc-timeout-service --save ```
 
 
 Usage
